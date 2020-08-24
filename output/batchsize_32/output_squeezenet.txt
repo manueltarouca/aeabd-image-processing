@@ -1,0 +1,137 @@
+==================================================================================================
+Total params: 727,626
+Trainable params: 727,626
+Non-trainable params: 0
+__________________________________________________________________________________________________
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.
+Using Enhanced Data Generation
+Found 9000 images belonging to 10 classes.
+Found 2000 images belonging to 10 classes.
+JSON Mapping for the model classes saved to  /content/drive/My Drive/imageprocessing/idenprof/json/model_class.json
+Number of experiments (Epochs) :  25
+Epoch 1/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3028 - acc: 0.1018Epoch 1/25
+ 62/281 [=====>........................] - ETA: 28s - loss: 2.3026 - acc: 0.0998
+Epoch 00001: val_acc improved from -inf to 0.09980, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-001_acc-0.099798.h5
+281/281 [==============================] - 152s 542ms/step - loss: 2.3028 - acc: 0.1018 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 2/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0969Epoch 1/25
+ 62/281 [=====>........................] - ETA: 25s - loss: 2.3026 - acc: 0.0998
+Epoch 00002: val_acc did not improve from 0.09980
+281/281 [==============================] - 138s 491ms/step - loss: 2.3026 - acc: 0.0969 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 3/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.1017Epoch 1/25
+ 62/281 [=====>........................] - ETA: 26s - loss: 2.3026 - acc: 0.0998
+Epoch 00003: val_acc did not improve from 0.09980
+281/281 [==============================] - 141s 501ms/step - loss: 2.3026 - acc: 0.1021 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 4/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.1019Epoch 1/25
+ 62/281 [=====>........................] - ETA: 27s - loss: 2.3026 - acc: 0.0998
+Epoch 00004: val_acc did not improve from 0.09980
+281/281 [==============================] - 140s 499ms/step - loss: 2.3026 - acc: 0.1019 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 5/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0979Epoch 1/25
+ 62/281 [=====>........................] - ETA: 27s - loss: 2.3026 - acc: 0.0998
+Epoch 00005: val_acc did not improve from 0.09980
+281/281 [==============================] - 140s 497ms/step - loss: 2.3026 - acc: 0.0980 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 6/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.1053Epoch 1/25
+ 62/281 [=====>........................] - ETA: 28s - loss: 2.3026 - acc: 0.0998
+Epoch 00006: val_acc did not improve from 0.09980
+281/281 [==============================] - 140s 498ms/step - loss: 2.3026 - acc: 0.1056 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 7/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0949Epoch 1/25
+ 62/281 [=====>........................] - ETA: 28s - loss: 2.3026 - acc: 0.0998
+Epoch 00007: val_acc did not improve from 0.09980
+281/281 [==============================] - 137s 488ms/step - loss: 2.3026 - acc: 0.0948 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 8/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0999Epoch 1/25
+ 62/281 [=====>........................] - ETA: 28s - loss: 2.3026 - acc: 0.0998
+Epoch 00008: val_acc did not improve from 0.09980
+281/281 [==============================] - 137s 487ms/step - loss: 2.3026 - acc: 0.1000 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 9/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.1025Epoch 1/25
+ 62/281 [=====>........................] - ETA: 29s - loss: 2.3026 - acc: 0.0998
+Epoch 00009: val_acc did not improve from 0.09980
+281/281 [==============================] - 136s 482ms/step - loss: 2.3026 - acc: 0.1026 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 10/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0988Epoch 1/25
+ 62/281 [=====>........................] - ETA: 32s - loss: 2.3026 - acc: 0.0998
+Epoch 00010: val_acc did not improve from 0.09980
+281/281 [==============================] - 136s 484ms/step - loss: 2.3026 - acc: 0.0988 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 11/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.1012Epoch 1/25
+ 62/281 [=====>........................] - ETA: 31s - loss: 2.3026 - acc: 0.0998
+Epoch 00011: val_acc did not improve from 0.09980
+281/281 [==============================] - 137s 489ms/step - loss: 2.3026 - acc: 0.1012 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 12/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0986Epoch 1/25
+ 62/281 [=====>........................] - ETA: 31s - loss: 2.3026 - acc: 0.0998
+Epoch 00012: val_acc did not improve from 0.09980
+281/281 [==============================] - 136s 485ms/step - loss: 2.3026 - acc: 0.0986 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 13/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.1006Epoch 1/25
+ 62/281 [=====>........................] - ETA: 32s - loss: 2.3026 - acc: 0.0998
+Epoch 00013: val_acc did not improve from 0.09980
+281/281 [==============================] - 138s 489ms/step - loss: 2.3026 - acc: 0.1004 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 14/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0950Epoch 1/25
+ 62/281 [=====>........................] - ETA: 31s - loss: 2.3026 - acc: 0.0998
+Epoch 00014: val_acc did not improve from 0.09980
+281/281 [==============================] - 137s 488ms/step - loss: 2.3026 - acc: 0.0950 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 15/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.1005Epoch 1/25
+ 62/281 [=====>........................] - ETA: 32s - loss: 2.3026 - acc: 0.0998
+Epoch 00015: val_acc did not improve from 0.09980
+281/281 [==============================] - 139s 493ms/step - loss: 2.3026 - acc: 0.1005 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 16/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0978Epoch 1/25
+ 62/281 [=====>........................] - ETA: 31s - loss: 2.3026 - acc: 0.0998
+Epoch 00016: val_acc did not improve from 0.09980
+281/281 [==============================] - 137s 487ms/step - loss: 2.3026 - acc: 0.0977 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 17/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0960Epoch 1/25
+ 62/281 [=====>........................] - ETA: 31s - loss: 2.3026 - acc: 0.0998
+Epoch 00017: val_acc did not improve from 0.09980
+281/281 [==============================] - 137s 489ms/step - loss: 2.3026 - acc: 0.0961 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 18/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.1036Epoch 1/25
+ 62/281 [=====>........................] - ETA: 31s - loss: 2.3026 - acc: 0.0998
+Epoch 00018: val_acc did not improve from 0.09980
+281/281 [==============================] - 137s 488ms/step - loss: 2.3026 - acc: 0.1036 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 19/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.1019Epoch 1/25
+ 62/281 [=====>........................] - ETA: 31s - loss: 2.3026 - acc: 0.0998
+Epoch 00019: val_acc did not improve from 0.09980
+281/281 [==============================] - 137s 487ms/step - loss: 2.3026 - acc: 0.1019 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 20/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.1077Epoch 1/25
+ 62/281 [=====>........................] - ETA: 31s - loss: 2.3026 - acc: 0.0998
+Epoch 00020: val_acc did not improve from 0.09980
+281/281 [==============================] - 138s 492ms/step - loss: 2.3026 - acc: 0.1076 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 21/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0970Epoch 1/25
+ 62/281 [=====>........................] - ETA: 32s - loss: 2.3026 - acc: 0.0998
+Epoch 00021: val_acc did not improve from 0.09980
+281/281 [==============================] - 137s 488ms/step - loss: 2.3026 - acc: 0.0970 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 22/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0996Epoch 1/25
+ 62/281 [=====>........................] - ETA: 31s - loss: 2.3026 - acc: 0.0998
+Epoch 00022: val_acc did not improve from 0.09980
+281/281 [==============================] - 138s 491ms/step - loss: 2.3026 - acc: 0.0996 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 23/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0975Epoch 1/25
+ 62/281 [=====>........................] - ETA: 32s - loss: 2.3026 - acc: 0.0998
+Epoch 00023: val_acc did not improve from 0.09980
+281/281 [==============================] - 138s 492ms/step - loss: 2.3026 - acc: 0.0973 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 24/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0977Epoch 1/25
+ 62/281 [=====>........................] - ETA: 31s - loss: 2.3026 - acc: 0.0998
+Epoch 00024: val_acc did not improve from 0.09980
+281/281 [==============================] - 139s 495ms/step - loss: 2.3026 - acc: 0.0975 - val_loss: 2.3026 - val_acc: 0.0998
+Epoch 25/25
+280/281 [============================>.] - ETA: 0s - loss: 2.3026 - acc: 0.0973Epoch 1/25
+ 62/281 [=====>........................] - ETA: 31s - loss: 2.3026 - acc: 0.0998
+Epoch 00025: val_acc did not improve from 0.09980
+281/281 [==============================] - 139s 494ms/step - loss: 2.3026 - acc: 0.0978 - val_loss: 2.3026 - val_acc: 0.0998
+SqueezeNet Model training completed!

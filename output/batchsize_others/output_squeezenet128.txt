@@ -1,0 +1,137 @@
+==================================================================================================
+Total params: 727,626
+Trainable params: 727,626
+Non-trainable params: 0
+__________________________________________________________________________________________________
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.
+Using Enhanced Data Generation
+Found 9000 images belonging to 10 classes.
+Found 2000 images belonging to 10 classes.
+JSON Mapping for the model classes saved to  /content/drive/My Drive/imageprocessing/idenprof/json/model_class.json
+Number of experiments (Epochs) :  25
+Epoch 1/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3029 - acc: 0.0954Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3026 - acc: 0.1005
+Epoch 00001: val_acc improved from -inf to 0.10052, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-001_acc-0.100521.h5
+70/70 [==============================] - 151s 2s/step - loss: 2.3029 - acc: 0.0952 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 2/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.0964Epoch 1/25
+15/70 [=====>........................] - ETA: 28s - loss: 2.3026 - acc: 0.1005
+Epoch 00002: val_acc did not improve from 0.10052
+70/70 [==============================] - 135s 2s/step - loss: 2.3026 - acc: 0.0960 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 3/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.1011Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3026 - acc: 0.1005
+Epoch 00003: val_acc did not improve from 0.10052
+70/70 [==============================] - 133s 2s/step - loss: 2.3026 - acc: 0.1012 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 4/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.1014Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3026 - acc: 0.1005
+Epoch 00004: val_acc did not improve from 0.10052
+70/70 [==============================] - 133s 2s/step - loss: 2.3026 - acc: 0.1010 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 5/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.1024Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3026 - acc: 0.1005
+Epoch 00005: val_acc did not improve from 0.10052
+70/70 [==============================] - 131s 2s/step - loss: 2.3026 - acc: 0.1021 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 6/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.0972Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3026 - acc: 0.1005
+Epoch 00006: val_acc did not improve from 0.10052
+70/70 [==============================] - 130s 2s/step - loss: 2.3026 - acc: 0.0977 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 7/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.1019Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3026 - acc: 0.1005
+Epoch 00007: val_acc did not improve from 0.10052
+70/70 [==============================] - 132s 2s/step - loss: 2.3026 - acc: 0.1016 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 8/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.0992Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3026 - acc: 0.1005
+Epoch 00008: val_acc did not improve from 0.10052
+70/70 [==============================] - 130s 2s/step - loss: 2.3026 - acc: 0.0989 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 9/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.0971Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3026 - acc: 0.1005
+Epoch 00009: val_acc did not improve from 0.10052
+70/70 [==============================] - 131s 2s/step - loss: 2.3026 - acc: 0.0968 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 10/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.0979Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3026 - acc: 0.1005
+Epoch 00010: val_acc did not improve from 0.10052
+70/70 [==============================] - 130s 2s/step - loss: 2.3026 - acc: 0.0979 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 11/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.1029Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3026 - acc: 0.1005
+Epoch 00011: val_acc did not improve from 0.10052
+70/70 [==============================] - 131s 2s/step - loss: 2.3026 - acc: 0.1027 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 12/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.0961Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3026 - acc: 0.1005
+Epoch 00012: val_acc did not improve from 0.10052
+70/70 [==============================] - 133s 2s/step - loss: 2.3026 - acc: 0.0957 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 13/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.1011Epoch 1/25
+15/70 [=====>........................] - ETA: 29s - loss: 2.3026 - acc: 0.1005
+Epoch 00013: val_acc did not improve from 0.10052
+70/70 [==============================] - 130s 2s/step - loss: 2.3026 - acc: 0.1012 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 14/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.1009Epoch 1/25
+15/70 [=====>........................] - ETA: 29s - loss: 2.3026 - acc: 0.1005
+Epoch 00014: val_acc did not improve from 0.10052
+70/70 [==============================] - 131s 2s/step - loss: 2.3026 - acc: 0.1007 - val_loss: 2.3026 - val_acc: 0.1005
+Epoch 15/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3025 - acc: 0.1016Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3015 - acc: 0.1615
+Epoch 00015: val_acc improved from 0.10052 to 0.16146, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-015_acc-0.161458.h5
+70/70 [==============================] - 131s 2s/step - loss: 2.3025 - acc: 0.1019 - val_loss: 2.3015 - val_acc: 0.1615
+Epoch 16/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3019 - acc: 0.1068Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3027 - acc: 0.1000
+Epoch 00016: val_acc did not improve from 0.16146
+70/70 [==============================] - 133s 2s/step - loss: 2.3020 - acc: 0.1063 - val_loss: 2.3027 - val_acc: 0.1000
+Epoch 17/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3027 - acc: 0.0997Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3027 - acc: 0.1000
+Epoch 00017: val_acc did not improve from 0.16146
+70/70 [==============================] - 129s 2s/step - loss: 2.3027 - acc: 0.0999 - val_loss: 2.3027 - val_acc: 0.1000
+Epoch 18/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3028 - acc: 0.0977Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3027 - acc: 0.1000
+Epoch 00018: val_acc did not improve from 0.16146
+70/70 [==============================] - 131s 2s/step - loss: 2.3028 - acc: 0.0976 - val_loss: 2.3027 - val_acc: 0.1000
+Epoch 19/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.1022Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3027 - acc: 0.1000
+Epoch 00019: val_acc did not improve from 0.16146
+70/70 [==============================] - 132s 2s/step - loss: 2.3026 - acc: 0.1020 - val_loss: 2.3027 - val_acc: 0.1000
+Epoch 20/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3028 - acc: 0.0990Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3027 - acc: 0.1000
+Epoch 00020: val_acc did not improve from 0.16146
+70/70 [==============================] - 129s 2s/step - loss: 2.3027 - acc: 0.0994 - val_loss: 2.3027 - val_acc: 0.1000
+Epoch 21/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3027 - acc: 0.0983Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3027 - acc: 0.1000
+Epoch 00021: val_acc did not improve from 0.16146
+70/70 [==============================] - 132s 2s/step - loss: 2.3027 - acc: 0.0982 - val_loss: 2.3027 - val_acc: 0.1000
+Epoch 22/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3025 - acc: 0.1040Epoch 1/25
+15/70 [=====>........................] - ETA: 29s - loss: 2.3027 - acc: 0.1000
+Epoch 00022: val_acc did not improve from 0.16146
+70/70 [==============================] - 129s 2s/step - loss: 2.3025 - acc: 0.1045 - val_loss: 2.3027 - val_acc: 0.1000
+Epoch 23/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3028 - acc: 0.0963Epoch 1/25
+15/70 [=====>........................] - ETA: 29s - loss: 2.3027 - acc: 0.1000
+Epoch 00023: val_acc did not improve from 0.16146
+70/70 [==============================] - 127s 2s/step - loss: 2.3028 - acc: 0.0963 - val_loss: 2.3027 - val_acc: 0.1000
+Epoch 24/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3026 - acc: 0.1021Epoch 1/25
+15/70 [=====>........................] - ETA: 29s - loss: 2.3027 - acc: 0.1000
+Epoch 00024: val_acc did not improve from 0.16146
+70/70 [==============================] - 128s 2s/step - loss: 2.3026 - acc: 0.1017 - val_loss: 2.3027 - val_acc: 0.1000
+Epoch 25/25
+69/70 [============================>.] - ETA: 1s - loss: 2.3027 - acc: 0.0988Epoch 1/25
+15/70 [=====>........................] - ETA: 30s - loss: 2.3027 - acc: 0.1000
+Epoch 00025: val_acc did not improve from 0.16146
+70/70 [==============================] - 128s 2s/step - loss: 2.3027 - acc: 0.0986 - val_loss: 2.3027 - val_acc: 0.1000
+SqueezeNet Model training completed!

@@ -1,0 +1,133 @@
+InceptionV3 Model training starting now!
+WARNING:tensorflow:`period` argument is deprecated. Please use `save_freq` to specify the frequency in number of samples seen.
+Using Enhanced Data Generation
+Found 9000 images belonging to 10 classes.
+Found 2000 images belonging to 10 classes.
+JSON Mapping for the model classes saved to  /content/drive/My Drive/imageprocessing/idenprof/json/model_class.json
+Number of experiments (Epochs) :  25
+Epoch 1/25
+139/140 [============================>.] - ETA: 0s - loss: 1.7227 - acc: 0.4114Epoch 1/25
+ 31/140 [=====>........................] - ETA: 26s - loss: 4.1505 - acc: 0.0988
+Epoch 00001: val_acc improved from -inf to 0.09879, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-001_acc-0.098790.h5
+140/140 [==============================] - 280s 2s/step - loss: 1.7216 - acc: 0.4118 - val_loss: 4.1505 - val_acc: 0.0988
+Epoch 2/25
+139/140 [============================>.] - ETA: 0s - loss: 1.3421 - acc: 0.5331Epoch 1/25
+ 31/140 [=====>........................] - ETA: 21s - loss: 3.8503 - acc: 0.1436
+Epoch 00002: val_acc improved from 0.09879 to 0.14365, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-002_acc-0.143649.h5
+140/140 [==============================] - 125s 893ms/step - loss: 1.3423 - acc: 0.5333 - val_loss: 3.8503 - val_acc: 0.1436
+Epoch 3/25
+139/140 [============================>.] - ETA: 0s - loss: 1.1890 - acc: 0.5947Epoch 1/25
+ 31/140 [=====>........................] - ETA: 21s - loss: 3.0170 - acc: 0.3503
+Epoch 00003: val_acc improved from 0.14365 to 0.35030, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-003_acc-0.350302.h5
+140/140 [==============================] - 124s 885ms/step - loss: 1.1876 - acc: 0.5952 - val_loss: 3.0170 - val_acc: 0.3503
+Epoch 4/25
+139/140 [============================>.] - ETA: 0s - loss: 1.0871 - acc: 0.6271Epoch 1/25
+ 31/140 [=====>........................] - ETA: 22s - loss: 1.4600 - acc: 0.5247
+Epoch 00004: val_acc improved from 0.35030 to 0.52470, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-004_acc-0.524698.h5
+140/140 [==============================] - 123s 881ms/step - loss: 1.0858 - acc: 0.6277 - val_loss: 1.4600 - val_acc: 0.5247
+Epoch 5/25
+139/140 [============================>.] - ETA: 0s - loss: 0.9722 - acc: 0.6709Epoch 1/25
+ 31/140 [=====>........................] - ETA: 22s - loss: 2.3168 - acc: 0.4274
+Epoch 00005: val_acc did not improve from 0.52470
+140/140 [==============================] - 123s 877ms/step - loss: 0.9720 - acc: 0.6709 - val_loss: 2.3168 - val_acc: 0.4274
+Epoch 6/25
+139/140 [============================>.] - ETA: 0s - loss: 0.9020 - acc: 0.6909Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 1.5080 - acc: 0.5499
+Epoch 00006: val_acc improved from 0.52470 to 0.54990, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-006_acc-0.549899.h5
+140/140 [==============================] - 122s 875ms/step - loss: 0.9010 - acc: 0.6917 - val_loss: 1.5080 - val_acc: 0.5499
+Epoch 7/25
+139/140 [============================>.] - ETA: 0s - loss: 0.8385 - acc: 0.7144Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 1.2263 - acc: 0.6099
+Epoch 00007: val_acc improved from 0.54990 to 0.60988, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-007_acc-0.609879.h5
+140/140 [==============================] - 122s 875ms/step - loss: 0.8376 - acc: 0.7147 - val_loss: 1.2263 - val_acc: 0.6099
+Epoch 8/25
+139/140 [============================>.] - ETA: 0s - loss: 0.7657 - acc: 0.7390Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 1.7640 - acc: 0.5832
+Epoch 00008: val_acc did not improve from 0.60988
+140/140 [==============================] - 120s 859ms/step - loss: 0.7660 - acc: 0.7386 - val_loss: 1.7640 - val_acc: 0.5832
+Epoch 9/25
+139/140 [============================>.] - ETA: 0s - loss: 0.7544 - acc: 0.7435Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 1.2518 - acc: 0.6215
+Epoch 00009: val_acc improved from 0.60988 to 0.62147, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-009_acc-0.621472.h5
+140/140 [==============================] - 121s 863ms/step - loss: 0.7561 - acc: 0.7429 - val_loss: 1.2518 - val_acc: 0.6215
+Epoch 10/25
+139/140 [============================>.] - ETA: 0s - loss: 0.6859 - acc: 0.7684Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 1.2869 - acc: 0.5978
+Epoch 00010: val_acc did not improve from 0.62147
+140/140 [==============================] - 120s 860ms/step - loss: 0.6853 - acc: 0.7680 - val_loss: 1.2869 - val_acc: 0.5978
+Epoch 11/25
+139/140 [============================>.] - ETA: 0s - loss: 0.6224 - acc: 0.7875Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 1.2757 - acc: 0.6124
+Epoch 00011: val_acc did not improve from 0.62147
+140/140 [==============================] - 119s 851ms/step - loss: 0.6225 - acc: 0.7876 - val_loss: 1.2757 - val_acc: 0.6124
+Epoch 12/25
+139/140 [============================>.] - ETA: 0s - loss: 0.4513 - acc: 0.8463Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 0.5885 - acc: 0.7974
+Epoch 00012: val_acc improved from 0.62147 to 0.79738, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-012_acc-0.797379.h5
+140/140 [==============================] - 121s 866ms/step - loss: 0.4517 - acc: 0.8461 - val_loss: 0.5885 - val_acc: 0.7974
+Epoch 13/25
+139/140 [============================>.] - ETA: 0s - loss: 0.3850 - acc: 0.8672Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 0.5696 - acc: 0.8049
+Epoch 00013: val_acc improved from 0.79738 to 0.80494, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-013_acc-0.804940.h5
+140/140 [==============================] - 121s 868ms/step - loss: 0.3853 - acc: 0.8673 - val_loss: 0.5696 - val_acc: 0.8049
+Epoch 14/25
+139/140 [============================>.] - ETA: 0s - loss: 0.3373 - acc: 0.8883Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 0.5858 - acc: 0.7964
+Epoch 00014: val_acc did not improve from 0.80494
+140/140 [==============================] - 120s 855ms/step - loss: 0.3383 - acc: 0.8881 - val_loss: 0.5858 - val_acc: 0.7964
+Epoch 15/25
+139/140 [============================>.] - ETA: 0s - loss: 0.3153 - acc: 0.8888Epoch 1/25
+ 31/140 [=====>........................] - ETA: 25s - loss: 0.5796 - acc: 0.8054
+Epoch 00015: val_acc improved from 0.80494 to 0.80544, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-015_acc-0.805444.h5
+140/140 [==============================] - 122s 872ms/step - loss: 0.3158 - acc: 0.8885 - val_loss: 0.5796 - val_acc: 0.8054
+Epoch 16/25
+139/140 [============================>.] - ETA: 0s - loss: 0.2932 - acc: 0.8970Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 0.6089 - acc: 0.8014
+Epoch 00016: val_acc did not improve from 0.80544
+140/140 [==============================] - 119s 849ms/step - loss: 0.2930 - acc: 0.8972 - val_loss: 0.6089 - val_acc: 0.8014
+Epoch 17/25
+139/140 [============================>.] - ETA: 0s - loss: 0.2624 - acc: 0.9094Epoch 1/25
+ 31/140 [=====>........................] - ETA: 28s - loss: 0.5516 - acc: 0.8160
+Epoch 00017: val_acc improved from 0.80544 to 0.81603, saving model to /content/drive/My Drive/imageprocessing/idenprof/models/model_ex-017_acc-0.816028.h5
+140/140 [==============================] - 122s 874ms/step - loss: 0.2623 - acc: 0.9097 - val_loss: 0.5516 - val_acc: 0.8160
+Epoch 18/25
+139/140 [============================>.] - ETA: 0s - loss: 0.2556 - acc: 0.9148Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 0.5679 - acc: 0.8125
+Epoch 00018: val_acc did not improve from 0.81603
+140/140 [==============================] - 119s 851ms/step - loss: 0.2562 - acc: 0.9145 - val_loss: 0.5679 - val_acc: 0.8125
+Epoch 19/25
+139/140 [============================>.] - ETA: 0s - loss: 0.2364 - acc: 0.9181Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 0.5752 - acc: 0.8150
+Epoch 00019: val_acc did not improve from 0.81603
+140/140 [==============================] - 119s 853ms/step - loss: 0.2360 - acc: 0.9181 - val_loss: 0.5752 - val_acc: 0.8150
+Epoch 20/25
+139/140 [============================>.] - ETA: 0s - loss: 0.2254 - acc: 0.9243Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 0.5824 - acc: 0.8160
+Epoch 00020: val_acc did not improve from 0.81603
+140/140 [==============================] - 121s 862ms/step - loss: 0.2257 - acc: 0.9245 - val_loss: 0.5824 - val_acc: 0.8160
+Epoch 21/25
+139/140 [============================>.] - ETA: 0s - loss: 0.2285 - acc: 0.9216Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 0.5912 - acc: 0.8145
+Epoch 00021: val_acc did not improve from 0.81603
+140/140 [==============================] - 120s 859ms/step - loss: 0.2282 - acc: 0.9217 - val_loss: 0.5912 - val_acc: 0.8145
+Epoch 22/25
+139/140 [============================>.] - ETA: 0s - loss: 0.2290 - acc: 0.9232Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 0.5939 - acc: 0.8155
+Epoch 00022: val_acc did not improve from 0.81603
+140/140 [==============================] - 120s 857ms/step - loss: 0.2284 - acc: 0.9232 - val_loss: 0.5939 - val_acc: 0.8155
+Epoch 23/25
+139/140 [============================>.] - ETA: 0s - loss: 0.2293 - acc: 0.9226Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 0.5945 - acc: 0.8160
+Epoch 00023: val_acc did not improve from 0.81603
+140/140 [==============================] - 121s 864ms/step - loss: 0.2295 - acc: 0.9224 - val_loss: 0.5945 - val_acc: 0.8160
+Epoch 24/25
+139/140 [============================>.] - ETA: 0s - loss: 0.2194 - acc: 0.9262Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 0.5961 - acc: 0.8150
+Epoch 00024: val_acc did not improve from 0.81603
+140/140 [==============================] - 120s 857ms/step - loss: 0.2191 - acc: 0.9264 - val_loss: 0.5961 - val_acc: 0.8150
+Epoch 25/25
+139/140 [============================>.] - ETA: 0s - loss: 0.2168 - acc: 0.9234Epoch 1/25
+ 31/140 [=====>........................] - ETA: 23s - loss: 0.5964 - acc: 0.8145
+Epoch 00025: val_acc did not improve from 0.81603
+140/140 [==============================] - 120s 858ms/step - loss: 0.2167 - acc: 0.9232 - val_loss: 0.5964 - val_acc: 0.8145
+InceptionV3 Model training completed!
